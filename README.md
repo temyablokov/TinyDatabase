@@ -8,9 +8,8 @@
 
 Программа использует библиотеку TinyDB для работы с JSON-файлами в качестве базы данных, а интерфейс создан с помощью библиотеки Tkinter.
 
-Код программы: 
 
-![Untitled](%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%962%20322e0b9dd3e744afa558bfa105656f67/Untitled.png)
+![Untitled](https://github.com/temyablokov/TinyDatabase/assets/119895350/1602d315-0ab7-42d3-b5ef-f0e2476fa3a2)
 
 ### **Структура базы данных:**
 
@@ -45,8 +44,8 @@
 
 - **Открытие и создание базы данных:**
     
-    ![Untitled](%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%962%20322e0b9dd3e744afa558bfa105656f67/Untitled%201.png)
-    
+    ![Untitled (1)](https://github.com/temyablokov/TinyDatabase/assets/119895350/0013a251-4a8c-4db9-8554-960dc64a4ef3)
+
     - Пользователь выбирает существующий файл JSON или создает новый.
     - Если файл существует, программа открывает базу данных.
 - **Добавление записей:**
@@ -54,53 +53,58 @@
     - Программа проверяет, нет ли записи с таким **`order_id`**, и добавляет новую запись в базу данных.
     - Если запись не соответстует типу данных или формату, выдается ошибка
     
-    ![Untitled](%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%962%20322e0b9dd3e744afa558bfa105656f67/Untitled%202.png)
+    ![Untitled (2)](https://github.com/temyablokov/TinyDatabase/assets/119895350/bf2d23ae-e673-4388-8d57-45aba1b19615)
+
     
 - **Удаление записей:**
     - Пользователь выбирает поле из раскрывающегося списка и значение поля, по которому нужно удалить запись.
     - Программа удаляет все записи соответствующим значением в выбранном поле.
     
-    ![Untitled](%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%962%20322e0b9dd3e744afa558bfa105656f67/Untitled%203.png)
+    (![Untitled (3)](https://github.com/temyablokov/TinyDatabase/assets/119895350/18b32518-10e6-48d9-9f4b-9f19e15340e7))
     
 - **Поиск записей:**
     - Пользователь выбирает поле и вводит значение поля, по которому нужно найти записи.
     - Программа выводит результаты поиска.
     
-    ![Untitled](%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%962%20322e0b9dd3e744afa558bfa105656f67/Untitled%204.png)
+    ![Untitled (4)](https://github.com/temyablokov/TinyDatabase/assets/119895350/0095327d-3afb-45df-bd86-37cd176a3d60)
     
 - **Редактирование записей:**
     - Пользователь выбирает поле, вводит значение для поиска и новые значения для замены.
     - Программа находит записи с соответствующим старым значением и заменяет поля новыми значениями. При этом, некоторые значения не будут заполнены, они останутся без изменения, как в изначальной записи
     
-    *Старые значения*
+*Старые значения*
     
 
-![Untitled](%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%962%20322e0b9dd3e744afa558bfa105656f67/Untitled%205.png)
+![Untitled (5)](https://github.com/temyablokov/TinyDatabase/assets/119895350/48ce55a0-65b0-4cb6-a853-06293521b40e)
 
-![Untitled](%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%962%20322e0b9dd3e744afa558bfa105656f67/Untitled%206.png)
+![Untitled (6)](https://github.com/temyablokov/TinyDatabase/assets/119895350/5c4d0696-60db-489b-bb4a-d488389be301)
 
-       *Новые значения:*
+*Новые значения*
 
-![Untitled](%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%962%20322e0b9dd3e744afa558bfa105656f67/Untitled%207.png)
+![Untitled (7)](https://github.com/temyablokov/TinyDatabase/assets/119895350/a1fb7561-792c-4397-8fbb-293033670da7)
+
 
 - **Экспорт в CSV и XLSX:**
     - Открывается окно для создания файла
     
-    ![Untitled](%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%962%20322e0b9dd3e744afa558bfa105656f67/Untitled%208.png)
+    ![Untitled (8)](https://github.com/temyablokov/TinyDatabase/assets/119895350/04dc9469-5db1-49cf-b931-d1925abd5869)
+
     
     - Программа сохраняет данные в выбранный пользователем файл в формате CSV
     
-    ![Untitled](%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%962%20322e0b9dd3e744afa558bfa105656f67/Untitled%209.png)
-    
+    ![Untitled (9)](https://github.com/temyablokov/TinyDatabase/assets/119895350/19be5f5a-3ab5-4dab-b22f-a1f1321a3366)
+
 - Создание и восстановления резервной копии:
     - Открывается окно для создания файла-копии, создается копия по адресу
     - Открывается окно выбора файла-копии, файл загружается в программу
     
-    ![Untitled](%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%962%20322e0b9dd3e744afa558bfa105656f67/Untitled%2010.png)
+   ![Untitled (10)](https://github.com/temyablokov/TinyDatabase/assets/119895350/bf21a842-7416-40e5-9761-5a633871d43c)
+
     
 - **Очистка базы данных:**
     - Пользователь нажимает на кнопку "Очистить базу данных".
     
-    ![Untitled](%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%962%20322e0b9dd3e744afa558bfa105656f67/Untitled%2011.png)
+    ![Untitled (11)](https://github.com/temyablokov/TinyDatabase/assets/119895350/cef322e8-7f9b-4b60-9f6d-0d3c49bacafe)
+
     
     - Программа удаляет все записи из базы данных.
