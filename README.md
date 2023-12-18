@@ -8,6 +8,7 @@
 
 Программа использует библиотеку TinyDB для работы с JSON-файлами в качестве базы данных, а интерфейс создан с помощью библиотеки Tkinter.
 
+В файле database.json приложена тестовая база данных в нужном формате.
 
 ![Untitled](https://github.com/temyablokov/TinyDatabase/assets/119895350/1602d315-0ab7-42d3-b5ef-f0e2476fa3a2)
 
